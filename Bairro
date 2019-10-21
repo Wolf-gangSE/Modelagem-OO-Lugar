@@ -1,0 +1,10 @@
+package com.example.firstproject;
+
+public class Bairro extends Lugar {
+    private Cidade cidade;
+    private Rua[] ruas;
+
+    public Bairro(String nome, String CEP) {
+        super(nome, CEP);
+    }
+}
