@@ -1,0 +1,25 @@
+package com.example.firstproject;
+
+public class Lugar {
+    private String nome;
+    private String CEP;
+    private int quant;
+
+    public String getCEP() {
+        return CEP;
+    }
+    public void setCEP(String CEP) {
+        this.CEP = CEP;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+public Lugar(String nome, String CEP) {
+    this.nome = nome;
+    this.CEP = CEP;
+    }
+
+}
