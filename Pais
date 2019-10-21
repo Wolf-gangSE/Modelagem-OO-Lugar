@@ -1,0 +1,10 @@
+package com.example.firstproject;
+
+public class Pais extends Lugar{
+    private Continente continente;
+    private Regiao[] regioes;
+
+    public Pais(String nome, String CEP) {
+        super(nome, CEP);
+    }
+}
